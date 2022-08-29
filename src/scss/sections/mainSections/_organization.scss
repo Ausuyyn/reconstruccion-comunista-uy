@@ -1,0 +1,43 @@
+.section__organization {
+    & > div {
+        background-color: rgb(228, 2, 2);
+        border-radius: 10px;
+        padding-bottom: 20px;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    }
+
+    img {
+        width: 100%;
+    }
+
+    p{
+        width: 80%;
+        color: white;
+        margin: auto;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    button {
+        background: none;
+        outline: none;
+        border: 1px solid white;
+        border-radius: 5px;
+        height: 35px;
+        width: 50%;
+        margin: auto;
+        color: white;
+        font-size: 15px;
+        display: block;
+        margin-top: 20px;
+        transition: color .2s;
+        transition: background .2s;
+
+        &:hover {
+            background-color: ghostwhite;
+            color: black;
+            transition: color .2s;
+            transition: background .2s;
+        }
+    }
+}

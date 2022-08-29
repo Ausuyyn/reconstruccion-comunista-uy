@@ -1,0 +1,11 @@
+@import 'footerSections/newsletter';
+@import 'footerSections/socialButtons';
+
+footer {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #242526;
+}

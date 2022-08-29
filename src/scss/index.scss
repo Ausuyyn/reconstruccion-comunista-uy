@@ -1,0 +1,22 @@
+
+/* Globals */
+@import 'globals/normalize';
+@import 'globals/globals';
+
+/* Section */
+
+@import 'sections/header';
+@import 'sections/nav';
+@import 'sections/main';
+@import 'sections/footer';
+
+/* Media queries */
+
+@import 'queries/800px';
+@import 'queries/500px';
+@import 'queries/400px';
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');

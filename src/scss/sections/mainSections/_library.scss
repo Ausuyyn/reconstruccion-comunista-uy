@@ -1,0 +1,15 @@
+
+.section__library {
+    & > div {
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 50px;  
+    }
+
+    img {
+        width: 300px;
+        height: 460px;
+    }
+}
